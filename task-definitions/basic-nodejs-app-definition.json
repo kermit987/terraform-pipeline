@@ -1,0 +1,13 @@
+[
+  {
+    "name": "basic-node-app-definition",
+    "image": "447414606764.dkr.ecr.eu-west-3.amazonaws.com/asic-nodejs-app-ecr",
+    "portMappings": [
+      {
+        "containerPort": 3000,
+        "hostPort": 80
+      }
+    ],
+    "memory": 512
+  }
+]
